@@ -102,36 +102,41 @@ const Navbar = () => {
             href="/"
             target="_blank"
             whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}>
-            <TwitterIcon className="w-6" />
+            whileTap={{ scale: 0.9 }}
+            className="w-7">
+            <TwitterIcon />
           </MotionLink>
           <MotionLink
             href="/"
             target="_blank"
             whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}>
-            <GithubIcon className="w-6" />
+            whileTap={{ scale: 0.9 }}
+            className="w-7">
+            <GithubIcon />
           </MotionLink>
           <MotionLink
             href="/"
             target="_blank"
             whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}>
-            <LinkedInIcon className="w-6" />
+            whileTap={{ scale: 0.9 }}
+            className="w-7">
+            <LinkedInIcon />
           </MotionLink>
           <MotionLink
             href="/"
             target="_blank"
             whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}>
-            <PinterestIcon className="w-6" />
+            whileTap={{ scale: 0.9 }}
+            className="w-7">
+            <PinterestIcon />
           </MotionLink>
           <MotionLink
             href="/"
             target="_blank"
             whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}>
-            <DribbbleIcon className="w-6" />
+            whileTap={{ scale: 0.9 }}
+            className="w-7">
+            <DribbbleIcon />
           </MotionLink>
 
           <button
@@ -182,35 +187,35 @@ const Navbar = () => {
               target="_blank"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}>
-              <TwitterIcon className="w-[30px]" />
+              <TwitterIcon className="w-10" />
             </MotionLink>
             <MotionLink
               href="/"
               target="_blank"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}>
-              <GithubIcon className="w-[30px] bg-light rounded-full dark:bg-dark" />
+              <GithubIcon className="w-10 bg-light rounded-full dark:bg-dark" />
             </MotionLink>
             <MotionLink
               href="/"
               target="_blank"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}>
-              <LinkedInIcon className="w-[30px]" />
+              <LinkedInIcon className="w-10" />
             </MotionLink>
             <MotionLink
               href="/"
               target="_blank"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}>
-              <PinterestIcon className="w-[30px]" />
+              <PinterestIcon className="w-10" />
             </MotionLink>
             <MotionLink
               href="/"
               target="_blank"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}>
-              <DribbbleIcon className="w-[30px]" />
+              <DribbbleIcon className="w-10" />
             </MotionLink>
 
             <button

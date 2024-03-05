@@ -31,7 +31,7 @@ export default function Home() {
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
                 src={ProfilePic}
-                alt="CodeBucks"
+                alt="SaninePink"
                 className="w-full h-auto lg:hidden md:inline-block md:w-full"
               />
             </div>
@@ -59,12 +59,12 @@ export default function Home() {
                   Resume
                   <LinkArrow className="w-6 ml-2" />
                 </Link>
-                <Link
+                <a
                   href="mailto:san.sangamesh96@gmail.com"
                   target="_blank"
                   className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base">
                   Contact
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ export default function Home() {
         <HireMe />
 
         <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
-          <Image src={LightBulb} alt="Codebucks" className="w-full h-auto" />
+          <Image src={LightBulb} alt="SaninePink" className="w-full h-auto" />
         </div>
       </main>
     </>

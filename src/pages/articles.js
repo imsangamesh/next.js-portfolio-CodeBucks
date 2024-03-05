@@ -104,7 +104,7 @@ const Articles = () => {
   return (
     <>
       <Head>
-        <title>CodeBucks | About Page</title>
+        <title>SaninePink | About Page</title>
         <meta name="description" content="any description" />
       </Head>
       <TransitionEffect />

@@ -89,7 +89,7 @@ const Project = ({ title, type, img, link, github }) => {
           href={link}
           target="_blank"
           className="hover:underline underline-offset-2 ">
-          <h2 className="my-2 w-full text-left text-3xl font-bold lg:text-2xl">
+          <h2 className="my-2 w-full text-left text-3xl font-bold lg:text-2xl dark:text-light">
             {title}
           </h2>
         </Link>
@@ -115,7 +115,7 @@ const Projects = () => {
   return (
     <>
       <Head>
-        <title>CodeBucks | Projects Page</title>
+        <title>SaninePink | Projects Page</title>
         <meta name="description" content="any description" />
       </Head>
       <TransitionEffect />

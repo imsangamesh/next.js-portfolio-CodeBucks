@@ -60,8 +60,8 @@ const Experience = () => {
         />
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
-          {experienceData.map((each) => (
-            <Details {...each} />
+          {experienceData.map((each, i) => (
+            <Details key={i} {...each} />
           ))}
         </ul>
       </div>
